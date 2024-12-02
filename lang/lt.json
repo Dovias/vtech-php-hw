@@ -3,5 +3,12 @@
     "route.home.description": "Šis skyrius šiuo metu neturi paskirties, bet jis yra naudojamas pristatyti namų darbą, atsiskaitymo metu.",
 
     "route.conferences.title": "Konferencijos",
-    "route.conferences.description": "Šis skyrius yra skirtas valdyti konferencijas bei peržvelgti su konferencijomis susijusią informaciją."
+    "route.conferences.description": "Šis skyrius yra skirtas valdyti konferencijas bei peržvelgti su konferencijomis susijusią informaciją.",
+
+    "modal.login.title": "Prisijungimas",
+    "modal.login.field.username.label": "Prisijungimo vardas",
+    "modal.login.field.username.placeholder": "prisijungimo_vardas",
+    "modal.login.field.password.label": "Slaptažodis",
+    "modal.login.field.password.placeholder": "••••••••••",
+    "modal.login.button.login.label": "Prisijungti"
 }
