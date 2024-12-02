@@ -1,1 +1,1 @@
-import './bootstrap';
+import './view/components/modal.js';
