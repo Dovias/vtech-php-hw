@@ -6,7 +6,7 @@
 
     $_significance = [
         '100' => 'rounded-md transition hover:bg-gray-100 active:bg-gray-200',
-        '200' => 'bg-blue-700 text-white rounded-md active:bg-blue-800 transition'
+        '200' => 'bg-blue-700 text-white rounded-md hover:bg-blue-800 active:bg-blue-900 transition'
     ];
 @endphp
 
