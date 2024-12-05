@@ -12,14 +12,26 @@
     "route.conferences.list.entry.edit.button.label": "Koreguoti",
     "route.conferences.list.entry.delete.button.label": "Naikinti",
 
+    "route.conference.add.title": "Konferencijos pridėjimas",
+    "route.conference.add.description": "Šiame skyriuje galima pridėti konferenciją prie konferencijų sąrašo, suvesdami atitinkamus duomenis apie buvusią arba vyksiančią konferenciją.",
+    "route.conference.add.form.field.address.label": "Adresas",
+    "route.conference.add.form.field.date.label": "Data",
+    "route.conference.add.form.field.name.label": "Pavadinimas",
+    "route.conference.add.form.field.description.label": "Aprašymas",
+    "route.conference.add.form.button.add.label": "Pridėti",
+    "route.conference.add.form.button.cancel.label": "Atšaukti",
+
     "route.login.title": "Prisijungimas",
     "route.login.form.field.username.label": "Prisijungimo vardas",
-    "route.login.form.field.username.placeholder": "prisijungimo_vardas",
     "route.login.form.field.password.label": "Slaptažodis",
-    "route.login.form.field.password.placeholder": "••••••••••",
     "route.login.form.button.authenticate.label": "Prisijungti",
 
     "login.error.validation.username.required": "Prisijungimo vardas negali būti tusčias!",
     "login.error.validation.password.required": "Slaptažodis negali būti tusčias!",
-    "login.error.user.not.found": "Neteisingas prisijungimo vardas arba slaptažodis!"
+    "login.error.user.not.found": "Neteisingas prisijungimo vardas arba slaptažodis!",
+
+    "add.conference.error.validation.name.required": "Pavadinimas negali būti tusčias!",
+    "add.conference.error.validation.description.required": "Aprašymas negali būti tusčias!",
+    "add.conference.error.validation.address.required": "Adresas negali būti tusčias!",
+    "add.conference.error.validation.date.required": "Data negali būti tusčia!"
 }

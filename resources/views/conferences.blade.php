@@ -5,7 +5,7 @@
         @auth
             <li class="grid mb-4">
                 <x-button
-                    route="login"
+                    route="conference.add"
                     variant="secondary"
                     class="flex items-center justify-center text-6xl"
                 >
