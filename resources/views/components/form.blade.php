@@ -1,6 +1,6 @@
 <form
     @if (!isset($action) && isset($route))
-        action="{{ route($route) }}"
+        action="{{ is_array($route) ? route($route[0], array_slice($route, 1)) : $route }}"
     @endif
 
     @if (isset($method))
