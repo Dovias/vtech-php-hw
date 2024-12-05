@@ -29,8 +29,8 @@
                             <x-action.button route="login" variant="primary" class="block">Peržvelgti</x-action.button>
                         @endguest
                     </div>
-                    <p class="text-xs text-nowrap"><x-location.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->address }}</p>
-                    <p class="text-xs text-nowrap"><x-calendar.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->date }}</p>
+                    <p class="mt-auto text-xs text-nowrap"><x-location.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->address }}</p>
+                    <p class="mt-auto text-xs text-nowrap"><x-calendar.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->date }}</p>
                 </article>
             </li>
         @endforeach
