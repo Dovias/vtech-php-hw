@@ -15,7 +15,7 @@
         @endauth
         @foreach(App\Models\Conference::All() as $conference)
             <li>
-                <article class="grid grid-rows-[1fr-min-content] grid-cols-[1fr_min-content] gap-x-12 gap-y-6 p-3 rounded-lg shadow-md border">
+                <article class="grid grid-rows-[1fr-min-content] grid-cols-[1fr_min-content] gap-x-12 gap-y-6 h-full p-3 rounded-lg shadow-md border">
                     <div>
                         <p class="text-xl font-semibold">{{ $loop->iteration.'. '.$conference->name }}</p>
                         <p class="text-sm">{{ $conference->description }}</p>
