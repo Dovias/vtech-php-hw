@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('content')
-    <ul class="grid auto-rows-[1fr] gap-4">
+    <ul class="grid auto-rows-[10rem] gap-4">
         @auth
             <li class="grid mb-4">
                 <x-button
