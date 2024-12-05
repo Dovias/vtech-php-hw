@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('content')
-    <ul class="grid auto-rows-[1fr] gap-4">
+    <ul class="grid auto-rows-[10rem] gap-4">
         @auth
             <li class="grid mb-4">
                 <x-button
@@ -22,10 +22,11 @@
                     </div>
                     <div>
                         @auth
-                            <x-action.button route="login" variant="primary" class="block">
+                            <x-action.button route="login" variant="primary" class="block w-full">
                                 {{ __('route.conferences.list.entry.edit.button.label') }}
                             </x-action.button>
-                            <x-action.button route="login" variant="dangerous" class="mt-1.5 block">
+                            <x-form id="delete" :route="['conference.delete', $conference->id]" method="delete"></x-form>
+                            <x-action.button form="delete" variant="dangerous" class="mt-1.5 block w-full">
                                 {{ __('route.conferences.list.entry.delete.button.label') }}
                             </x-action.button>
                         @endauth
