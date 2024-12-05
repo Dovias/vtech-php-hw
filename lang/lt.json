@@ -1,14 +1,22 @@
 {
+    "navigation.login.button.label": "Prisijungti",
+    "navigation.logout.button.label": "Atsijungti",
+    "navigation.logged.in.user": "Vartotojas:",
+
     "route.home.title": "Sveiki!",
     "route.home.description": "Šis skyrius šiuo metu neturi paskirties, bet jis yra naudojamas pristatyti namų darbą, atsiskaitymo metu.",
 
     "route.conferences.title": "Konferencijos",
     "route.conferences.description": "Šis skyrius yra skirtas valdyti konferencijas bei peržvelgti su konferencijomis susijusią informaciją.",
 
-    "modal.login.title": "Prisijungimas",
-    "modal.login.field.username.label": "Prisijungimo vardas",
-    "modal.login.field.username.placeholder": "prisijungimo_vardas",
-    "modal.login.field.password.label": "Slaptažodis",
-    "modal.login.field.password.placeholder": "••••••••••",
-    "modal.login.button.login.label": "Prisijungti"
+    "route.login.title": "Prisijungimas",
+    "route.login.form.field.username.label": "Prisijungimo vardas",
+    "route.login.form.field.username.placeholder": "prisijungimo_vardas",
+    "route.login.form.field.password.label": "Slaptažodis",
+    "route.login.form.field.password.placeholder": "••••••••••",
+    "route.login.form.button.authenticate.label": "Prisijungti",
+
+    "login.error.validation.username.required": "Prisijungimo vardas negali būti tusčias!",
+    "login.error.validation.password.required": "Slaptažodis negali būti tusčias!",
+    "login.error.user.not.found": "Neteisingas prisijungimo vardas arba slaptažodis!"
 }
