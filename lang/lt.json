@@ -8,6 +8,9 @@
 
     "route.conferences.title": "Konferencijos",
     "route.conferences.description": "Šis skyrius yra skirtas valdyti konferencijas bei peržvelgti su konferencijomis susijusią informaciją.",
+    "route.conferences.list.entry.preview.button.label": "Peržvelgti",
+    "route.conferences.list.entry.edit.button.label": "Koreguoti",
+    "route.conferences.list.entry.delete.button.label": "Naikinti",
 
     "route.login.title": "Prisijungimas",
     "route.login.form.field.username.label": "Prisijungimo vardas",

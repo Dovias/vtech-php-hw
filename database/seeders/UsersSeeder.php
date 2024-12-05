@@ -10,8 +10,7 @@ class UsersSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void
-    {
+    public function run(): void {
         User::factory()->create([
            'username' => 'admin',
            'password' => 'admin'
