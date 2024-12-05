@@ -21,8 +21,13 @@
                         <p class="text-sm">{{ $conference->description }}</p>
                     </div>
                     <div>
-                        <x-action.button route="login" variant="primary" class="block">Koreguoti</x-action.button>
-                        <x-action.button route="login" variant="dangerous" class="mt-1.5 block">Ištrinti</x-action.button>
+                        @auth
+                            <x-action.button route="login" variant="primary" class="block">Koreguoti</x-action.button>
+                            <x-action.button route="login" variant="dangerous" class="mt-1.5 block">Ištrinti</x-action.button>
+                        @endauth
+                        @guest
+                            <x-action.button route="login" variant="primary" class="block">Peržvelgti</x-action.button>
+                        @endguest
                     </div>
                     <p class="text-xs text-nowrap"><x-location.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->address }}</p>
                     <p class="text-xs text-nowrap"><x-calendar.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->date }}</p>
