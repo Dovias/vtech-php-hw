@@ -22,11 +22,17 @@
                     </div>
                     <div>
                         @auth
-                            <x-action.button route="login" variant="primary" class="block">Koreguoti</x-action.button>
-                            <x-action.button route="login" variant="dangerous" class="mt-1.5 block">Ištrinti</x-action.button>
+                            <x-action.button route="login" variant="primary" class="block">
+                                {{ __('route.conferences.list.entry.edit.button.label') }}
+                            </x-action.button>
+                            <x-action.button route="login" variant="dangerous" class="mt-1.5 block">
+                                {{ __('route.conferences.list.entry.delete.button.label') }}
+                            </x-action.button>
                         @endauth
                         @guest
-                            <x-action.button route="login" variant="primary" class="block">Peržvelgti</x-action.button>
+                            <x-action.button route="login" variant="primary" class="block">
+                               {{ __('route.conferences.list.entry.preview.button.label') }}
+                            </x-action.button>
                         @endguest
                     </div>
                     <p class="mt-auto text-xs text-nowrap"><x-location.icon class="inline h-[1em] mb-0.5 mr-1.5 align-middle"/>{{ $conference->address }}</p>
