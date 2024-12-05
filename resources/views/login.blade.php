@@ -5,10 +5,9 @@
         <a href="{{route('home')}}" class="min-w-36 text-blue-700">
             <x-branding />
         </a>
-        <div class="w-96 rounded-md border shadow-lg">
+        <div class="w-80 rounded-md border shadow-lg">
             <header class="flex items-center justify-between p-4 border-b">
                 <h2 class="text-lg">{{ __('route.login.title') }}</h2>
-                <x-house.button variant="secondary" size="large" dimensions="square" route="home" />
             </header>
             <x-form id="login" name="user" route="login" method="post" class="p-4">
                 <x-text.field
@@ -27,9 +26,9 @@
                 />
             </x-form>
             <footer class="flex items-center justify-end gap-2 p-4 border-t">
-                <x-submit.button form="login" dimensions="content">
+                <x-action.button variant="primary" size="large" form="login" dimensions="content">
                     {{ __('route.login.form.button.authenticate.label') }}
-                </x-submit.button>
+                </x-action.button>
             </footer>
         </div>
     </div>
