@@ -15,18 +15,16 @@
                     name="username"
                     value="{{ old('username') }}"
                     label="{{ __('route.login.form.field.username.label') }}"
-                    placeholder="{{ __('route.login.form.field.username.placeholder') }}"
                 />
                 <x-text.field
                     type="password"
                     name="password"
                     value="{{ old('password') }}"
                     label="{{ __('route.login.form.field.password.label') }}"
-                    placeholder="{{ __('route.login.form.field.password.placeholder') }}"
                 />
             </x-form>
             <footer class="flex items-center justify-end gap-2 p-4 border-t">
-                <x-action.button variant="primary" size="large" form="login" dimensions="content">
+                <x-action.button variant="primary" form="login">
                     {{ __('route.login.form.button.authenticate.label') }}
                 </x-action.button>
             </footer>
